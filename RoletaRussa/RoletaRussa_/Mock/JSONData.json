@@ -1,0 +1,61 @@
+{
+  "totalValue": 480.0,
+  "productList": [
+    {
+      "productID": "9a157e36-7279-41d0-9d30-5310e9afd6324",
+      "productType": "REFEIÇÃO",
+      "date": "2020-11-24T00:00:00.000",
+      "name": "Fritas",
+      "price": 45.7,
+      "quantity": 2
+    },
+    {
+      "productID": "9a157e36-7279-41d0-9d30-5310e9afd458",
+      "productType": "REFEIÇÃO",
+      "date": "2020-11-24T00:00:00.000",
+      "name": "Bolinho de arroz",
+      "price": 23.7,
+      "quantity": 3
+    },
+   {
+      "productID": "9a157e36-7279-41d0-9d30-5310e9afd5466",
+      "productType": "BEBIDA",
+      "date": "2020-11-24T00:00:00.000",
+      "name": "Original",
+      "price": 13.5,
+      "quantity": 10
+    },
+    {
+      "productID": "9a157e36-7279-41d0-9d30-5310e9afd2014",
+      "productType": "BEBIDA",
+      "date": "2020-11-24T00:00:00.000",
+      "name": "Caipirinha",
+      "price": 25.3,
+      "quantity": 6
+    },
+   {
+      "productID": "9a157e36-7279-41d0-9d30-5310e9afd6324",
+      "productType": "REFEIÇÃO",
+      "date": "2020-11-24T00:00:00.000",
+      "name": "Fritas",
+      "price": 45.7,
+      "quantity": 2
+    },
+    {
+      "productID": "9a157e36-7279-41d0-9d30-5310e9afd2014",
+      "productType": "BEBIDA",
+      "date": "2020-11-24T00:00:00.000",
+      "name": "Caipirinha",
+      "price": 25.3,
+      "quantity": 8
+    },
+    {
+      "productID": "9a157e36-7279-41d0-9d30-5310e9afd2014",
+      "productType": "BEBIDA",
+      "date": "2020-11-24T00:00:00.000",
+      "name": "Caipirinha",
+      "price": 25.3,
+      "quantity": 4
+    }
+    ]
+ }

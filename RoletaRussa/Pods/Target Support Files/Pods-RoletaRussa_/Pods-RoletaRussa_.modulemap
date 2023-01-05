@@ -1,0 +1,6 @@
+framework module Pods_RoletaRussa_ {
+  umbrella header "Pods-RoletaRussa_-umbrella.h"
+
+  export *
+  module * { export * }
+}

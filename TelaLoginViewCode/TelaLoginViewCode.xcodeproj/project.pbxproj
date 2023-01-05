@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36ECED09286F393D002EB31A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED08286F393D002EB31A /* AppDelegate.swift */; };
+		36ECED0B286F393D002EB31A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED0A286F393D002EB31A /* SceneDelegate.swift */; };
+		36ECED10286F393D002EB31A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36ECED0E286F393D002EB31A /* Main.storyboard */; };
+		36ECED13286F393D002EB31A /* TelaLoginViewCode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED11286F393D002EB31A /* TelaLoginViewCode.xcdatamodeld */; };
+		36ECED15286F393D002EB31A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36ECED14286F393D002EB31A /* Assets.xcassets */; };
+		36ECED18286F393D002EB31A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36ECED16286F393D002EB31A /* LaunchScreen.storyboard */; };
+		36ECED31286F39BD002EB31A /* UiColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED20286F39BD002EB31A /* UiColor+Random.swift */; };
+		36ECED32286F39BD002EB31A /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED21286F39BD002EB31A /* ViewCode.swift */; };
+		36ECED33286F39BD002EB31A /* UiView+Constrains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED22286F39BD002EB31A /* UiView+Constrains.swift */; };
+		36ECED34286F39BD002EB31A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED25286F39BD002EB31A /* RegisterViewController.swift */; };
+		36ECED35286F39BD002EB31A /* RegisterElementsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED27286F39BD002EB31A /* RegisterElementsModel.swift */; };
+		36ECED36286F39BD002EB31A /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED29286F39BD002EB31A /* RegisterView.swift */; };
+		36ECED37286F39BD002EB31A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED2C286F39BD002EB31A /* ViewController.swift */; };
+		36ECED38286F39BD002EB31A /* LoginElementsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED2E286F39BD002EB31A /* LoginElementsModel.swift */; };
+		36ECED39286F39BD002EB31A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36ECED30286F39BD002EB31A /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36ECED05286F393D002EB31A /* TelaLoginViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelaLoginViewCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36ECED08286F393D002EB31A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36ECED0A286F393D002EB31A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		36ECED0F286F393D002EB31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36ECED12286F393D002EB31A /* TelaLoginViewCode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TelaLoginViewCode.xcdatamodel; sourceTree = "<group>"; };
+		36ECED14286F393D002EB31A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36ECED17286F393D002EB31A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		36ECED19286F393D002EB31A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36ECED20286F39BD002EB31A /* UiColor+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiColor+Random.swift"; sourceTree = "<group>"; };
+		36ECED21286F39BD002EB31A /* ViewCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		36ECED22286F39BD002EB31A /* UiView+Constrains.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UiView+Constrains.swift"; sourceTree = "<group>"; };
+		36ECED25286F39BD002EB31A /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		36ECED27286F39BD002EB31A /* RegisterElementsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterElementsModel.swift; sourceTree = "<group>"; };
+		36ECED29286F39BD002EB31A /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		36ECED2C286F39BD002EB31A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36ECED2E286F39BD002EB31A /* LoginElementsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginElementsModel.swift; sourceTree = "<group>"; };
+		36ECED30286F39BD002EB31A /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36ECED02286F393D002EB31A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36ECECFC286F393D002EB31A = {
+			isa = PBXGroup;
+			children = (
+				36ECED07286F393D002EB31A /* TelaLoginViewCode */,
+				36ECED06286F393D002EB31A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36ECED06286F393D002EB31A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36ECED05286F393D002EB31A /* TelaLoginViewCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36ECED07286F393D002EB31A /* TelaLoginViewCode */ = {
+			isa = PBXGroup;
+			children = (
+				36ECED1F286F39BD002EB31A /* Library */,
+				36ECED2A286F39BD002EB31A /* Login */,
+				36ECED23286F39BD002EB31A /* Register */,
+				36ECED08286F393D002EB31A /* AppDelegate.swift */,
+				36ECED0A286F393D002EB31A /* SceneDelegate.swift */,
+				36ECED0E286F393D002EB31A /* Main.storyboard */,
+				36ECED14286F393D002EB31A /* Assets.xcassets */,
+				36ECED16286F393D002EB31A /* LaunchScreen.storyboard */,
+				36ECED19286F393D002EB31A /* Info.plist */,
+				36ECED11286F393D002EB31A /* TelaLoginViewCode.xcdatamodeld */,
+			);
+			path = TelaLoginViewCode;
+			sourceTree = "<group>";
+		};
+		36ECED1F286F39BD002EB31A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				36ECED20286F39BD002EB31A /* UiColor+Random.swift */,
+				36ECED21286F39BD002EB31A /* ViewCode.swift */,
+				36ECED22286F39BD002EB31A /* UiView+Constrains.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		36ECED23286F39BD002EB31A /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				36ECED24286F39BD002EB31A /* ViewModel */,
+				36ECED26286F39BD002EB31A /* Model */,
+				36ECED28286F39BD002EB31A /* View */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		36ECED24286F39BD002EB31A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				36ECED25286F39BD002EB31A /* RegisterViewController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		36ECED26286F39BD002EB31A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36ECED27286F39BD002EB31A /* RegisterElementsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36ECED28286F39BD002EB31A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36ECED29286F39BD002EB31A /* RegisterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		36ECED2A286F39BD002EB31A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				36ECED2B286F39BD002EB31A /* ViewModel */,
+				36ECED2D286F39BD002EB31A /* Model */,
+				36ECED2F286F39BD002EB31A /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		36ECED2B286F39BD002EB31A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				36ECED2C286F39BD002EB31A /* ViewController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		36ECED2D286F39BD002EB31A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				36ECED2E286F39BD002EB31A /* LoginElementsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36ECED2F286F39BD002EB31A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36ECED30286F39BD002EB31A /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36ECED04286F393D002EB31A /* TelaLoginViewCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36ECED1C286F393D002EB31A /* Build configuration list for PBXNativeTarget "TelaLoginViewCode" */;
+			buildPhases = (
+				36ECED01286F393D002EB31A /* Sources */,
+				36ECED02286F393D002EB31A /* Frameworks */,
+				36ECED03286F393D002EB31A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelaLoginViewCode;
+			productName = TelaLoginViewCode;
+			productReference = 36ECED05286F393D002EB31A /* TelaLoginViewCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36ECECFD286F393D002EB31A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					36ECED04286F393D002EB31A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 36ECED00286F393D002EB31A /* Build configuration list for PBXProject "TelaLoginViewCode" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36ECECFC286F393D002EB31A;
+			productRefGroup = 36ECED06286F393D002EB31A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36ECED04286F393D002EB31A /* TelaLoginViewCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36ECED03286F393D002EB31A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ECED18286F393D002EB31A /* LaunchScreen.storyboard in Resources */,
+				36ECED15286F393D002EB31A /* Assets.xcassets in Resources */,
+				36ECED10286F393D002EB31A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36ECED01286F393D002EB31A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36ECED35286F39BD002EB31A /* RegisterElementsModel.swift in Sources */,
+				36ECED36286F39BD002EB31A /* RegisterView.swift in Sources */,
+				36ECED38286F39BD002EB31A /* LoginElementsModel.swift in Sources */,
+				36ECED33286F39BD002EB31A /* UiView+Constrains.swift in Sources */,
+				36ECED37286F39BD002EB31A /* ViewController.swift in Sources */,
+				36ECED09286F393D002EB31A /* AppDelegate.swift in Sources */,
+				36ECED34286F39BD002EB31A /* RegisterViewController.swift in Sources */,
+				36ECED31286F39BD002EB31A /* UiColor+Random.swift in Sources */,
+				36ECED0B286F393D002EB31A /* SceneDelegate.swift in Sources */,
+				36ECED39286F39BD002EB31A /* LoginView.swift in Sources */,
+				36ECED13286F393D002EB31A /* TelaLoginViewCode.xcdatamodeld in Sources */,
+				36ECED32286F39BD002EB31A /* ViewCode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		36ECED0E286F393D002EB31A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36ECED0F286F393D002EB31A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		36ECED16286F393D002EB31A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36ECED17286F393D002EB31A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36ECED1A286F393D002EB31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36ECED1B286F393D002EB31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		36ECED1D286F393D002EB31A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelaLoginViewCode/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Thiago-Fernandes.TelaLoginViewCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36ECED1E286F393D002EB31A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TelaLoginViewCode/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Thiago-Fernandes.TelaLoginViewCode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36ECED00286F393D002EB31A /* Build configuration list for PBXProject "TelaLoginViewCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36ECED1A286F393D002EB31A /* Debug */,
+				36ECED1B286F393D002EB31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36ECED1C286F393D002EB31A /* Build configuration list for PBXNativeTarget "TelaLoginViewCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36ECED1D286F393D002EB31A /* Debug */,
+				36ECED1E286F393D002EB31A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		36ECED11286F393D002EB31A /* TelaLoginViewCode.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				36ECED12286F393D002EB31A /* TelaLoginViewCode.xcdatamodel */,
+			);
+			currentVersion = 36ECED12286F393D002EB31A /* TelaLoginViewCode.xcdatamodel */;
+			path = TelaLoginViewCode.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 36ECECFD286F393D002EB31A /* Project object */;
+}
